@@ -6,7 +6,4 @@ public Studentcard(String Firstname, String Secondname, private int StudentID, p
     this.Year = Year;
     this.Month - Month;
 }
-public Studentcard(String Firstname, String Secondname, private int StudentID, private static YearMonth, private int Year, private int Month) {
-    this(Firstname, Secondname, StudentID, YearMonth, Year, Month);
 
-}
