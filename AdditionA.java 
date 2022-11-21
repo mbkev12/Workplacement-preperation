@@ -1,0 +1,15 @@
+public class doubleAddition {
+public static void main(String[] args) {
+int hoursA=150, rateA=25;
+int Multiply;
+Multiply = hoursA*rateA;
+
+System.out.println("What is the hours calculation" + Multiply);
+
+double Tax;
+Tax = Taxrate(Multiply);
+System.out.println("Square root of area is " +Taxrate);
+
+
+}
+}
