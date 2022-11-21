@@ -1,12 +1,26 @@
-    public class Addition{  
-    public static void main(String args[]){  
-    short AdditionA=15;  
-    short AdditionB=10;  
+       public static void main(String args[]){  
+    short Addition = 10 + 15;  
     long Number = 1000;
     int Interger = (int)Number;
-    Addition=(short)(a+b);
-    System.out.println(a);  
-    System.out.println(Interger);
-    }}  
+    boolean opp1, opp2;
+    opp1 = true;
+    if(opp1)
+    System.out.println("This addition is less than our long number......");
+    opp2 = false;
+    if(opp2)
+    System.out.println("This long number is greater than our addition.....");
+    if (Addition<Interger)
+{ 
+   System.out.println(opp1);
 
+}  
+else
+{ 
+   System.out.println(opp2);
+
+}  
+    
+    
+    
+    }}  
     
