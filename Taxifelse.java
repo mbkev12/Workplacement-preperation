@@ -10,7 +10,7 @@ public class JavaProgramming {
     }
  
     else {
-      System.out.println("Your hours have been calcaled and you will not be taxed");
+      System.out.println("Your hours have been calculated and you will not be taxed");
     }
 
    
