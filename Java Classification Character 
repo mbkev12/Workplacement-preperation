@@ -1,0 +1,24 @@
+ import java.util. * ;
+
+public class Java {
+    
+  public static void main(String[] args) {
+    System.out.println("The value of isLetter('a') is " + Character.isLetter('a'));
+    System.out.println("The value of isLetter('7') is " + Character.isLetter('7'));
+   System.out.println("The value of isDigit('b') is " + Character.isDigit('a'));
+    System.out.println("The value of isDigit('7') is " + Character.isDigit('7')); 
+     System.out.println("The value of isWhitespace('b') is " + Character.isWhitespace('b'));
+     System.out.println("The value of isWhitespace(' ') is " + Character.isWhitespace(' '));
+        System.out.println("The value of isUpperCase('D') is " + Character.isUpperCase('D'));
+        System.out.println("The value of isUpperCase('c') is " + Character.isUpperCase('c'));
+          System.out.println("The value of isLowerCase('a') is " + Character.isLowerCase('a'));
+          System.out.println("The value of isLowerCase('B') is " + Character.isLowerCase('B'));
+            System.out.println("The value of toUpperCase('a') is " + Character.toUpperCase('a'));
+             System.out.println("The value of toLowerCase('B') is " + Character.toLowerCase('B'));
+             System.out.println("The value of toString('a') is " + Character.toString('a'));
+          
+          
+        
+    
+  }
+}
