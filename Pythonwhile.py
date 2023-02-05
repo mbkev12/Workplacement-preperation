@@ -1,30 +1,24 @@
 calculate = 1
-number = 0 
-pick = 0 
+number = 0
+pick = 0
 
-while true
+while True:
+    # input the number 
+    number = int(input("Enter a number: "))
+    
+    # break if num is 0
+    if number==0:
+        break   # terminates inner loop
+    
+    # print the table 
+    calculate = 1
+    while calculate<=10:
+        print(number*calculate)
+        calculate += 1
 
-#Enter any number 
+    # input choice
+    pick = int(input("press 1 to continue..."))
+    if pick != 1:
+        break   # terminates outer loop
 
-number = int(Enter("Pick a number -"))
-
-#Dont accept number 0
-
-if number ==0 
- break  #Dis(able the actuall loop 
-
- # Print calculated numebrs 
-
- calculate = 1 
- while calculate<=10
- print(number*calculate)
- calculate += 1 
-
- #Make an operation with number example 1
- pick = int(input("Enter 1 allow you go forward "))
- if pick !=1
- break 
-
- print("End ")
-
-
+print("bye bye!!!")
